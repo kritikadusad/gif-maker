@@ -5,7 +5,7 @@ Here are the instructions to set up everything to run this app on your local mac
 Make sure you have 5.2 or higher in [Node.js](https://nodejs.org/en/download/).
 
 Please clone the gif-maker repository into your machine. 
-Once the cloning is complete, move into the bejeweled directory:
+Once the cloning is complete, move into the gif-maker directory:
 ### `cd gif-maker`
 
 In the project directory, you can run:
