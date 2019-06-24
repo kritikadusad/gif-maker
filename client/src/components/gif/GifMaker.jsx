@@ -1,6 +1,5 @@
 // @format
 import React, {Component} from 'react';
-import Upload from 'components/upload/Upload.jsx';
 import TempUpload from 'components/upload/TempUpload.jsx';
 import GifPreview from './GifPreview.jsx';
 import GifCreate from './GifCreate.jsx';
