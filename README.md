@@ -1,5 +1,5 @@
 ## GIF-Maker
-Check out the gif-maker [here](https://kritikadusad.github.io/gif-maker/). 
+Check out the gif-maker [here](https://protected-waters-89688.herokuapp.com/). 
 
 Here are the instructions to set up everything to run this app on your local machine. 
 Make sure you have 5.2 or higher in [Node.js](https://nodejs.org/en/download/).

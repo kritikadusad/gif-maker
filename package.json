@@ -3,7 +3,9 @@
   "description": "This repo contains code for previewing and creating a GIF.",
   "scripts": {
     "build": "cd client/ && npm install && npm run build",
-    "start": "(cd client/ && npm run start) & (cd server/ && FLASK_APP=index.py FLASK_DEBUG=1 pipenv run python3 -m flask run)"
+    "start": "(cd client/ && npm run start) & (cd server/ && FLASK_APP=index.py FLASK_DEBUG=1 pipenv run python3 -m flask run)",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "heroku-run-build-script": true,
   "eslintConfig": {
@@ -12,5 +14,9 @@
   "license": "MIT",
   "dependencies": {
     "datauri": "^2.0.0"
+  },
+  "homepage": "https://kritikadusad.github.io/gif-maker/",
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
   }
 }
