@@ -24,10 +24,14 @@ class GifMaker extends Component {
 
     return (
       <div className={styles.container}>
-        <h2>Create a GIF</h2>
+        <h2>GIF-Maker</h2>
         <div>
-          This tool allows a user to upload images, see a preview of their GIF,
-          and convert those images into a GIF montage!
+          <h4>
+            To make a GIF, upload images (one by one) and check out a preview of
+            the GIF. If you like it, click Create GIF to convert those images
+            into a GIF montage! NOTE: Multiple image upload feature coming up
+            soon...
+          </h4>{' '}
         </div>
         <TempUpload handleFinish={this.handleFinish} />
         {urls.length ? (

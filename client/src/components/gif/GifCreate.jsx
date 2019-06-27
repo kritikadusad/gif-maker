@@ -75,7 +75,7 @@ class GifCreateButton extends Component {
         {loading ? (
           'Loading ...'
         ) : (
-          <input type="button" value="Make a GIF" onClick={this.createGif} />
+          <input className= {styles.button} type="button" value="Create GIF" onClick={this.createGif} />
         )}
         {this.renderFinalGif()}
       </div>

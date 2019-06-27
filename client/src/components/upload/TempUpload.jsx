@@ -1,6 +1,6 @@
 // @format
 import React, {Component} from 'react';
-import styles from './Upload.module.scss';
+import styles from './TempUpload.module.scss';
 
 class TempUpload extends Component {
   constructor(props) {
@@ -26,13 +26,12 @@ class TempUpload extends Component {
   render() {
     return (
       <div className={styles.container}>
-        <form onSubmit={this.handleSubmit}>
-          <label>
-            Upload Image:
-            <input type="file" ref={this.fileInput} />
+        <form onChange={this.handleSubmit}>
+          <label className={styles.label}>
+            Upload Image
+            <input className={styles.input} type="file" ref={this.fileInput} />
           </label>
           <br />
-          <button type="submit"> Upload! </button>
         </form>
       </div>
     );

@@ -62,14 +62,6 @@ class GifPreview extends Component {
         <div className={styles.header}>Preview of final gif:</div>
         {gifDiv}
         {this.showImage()}
-        <div className={styles.note}>
-          You can add more images by clicking Choose Files button.
-          <br />
-          Once you like the GIF preview, click on Make GIF button.
-          <br />
-          If you want to restart from scratch, click Refresh button in your
-          browser.
-        </div>
       </div>
     );
   }

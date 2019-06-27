@@ -1,0 +1,24 @@
+.container {
+  margin-top: 2em;
+  float: center;
+}
+
+.input {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+ }
+ .label {
+  display: block;
+  text-align: center;
+  font-size: 1em;
+  padding: 0.5em 0.5em;
+  font-weight: 200;
+  color: white;
+  background-color: #CE8147;
+  border-radius: 2em;
+  cursor: pointer;
+}
