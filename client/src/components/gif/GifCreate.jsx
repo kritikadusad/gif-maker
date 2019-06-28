@@ -62,8 +62,11 @@ class GifCreateButton extends Component {
     else
       return (
         <>
-          <div className={styles.header}>Final GIF:</div>
+          <a className={styles.gif} download="your_gif.gif" href={gif} >
           <img src={gif} alt="GIF Final" className={styles.gif} />
+          </a>
+            <div className={styles.download}>To download the GIF, please click on it.</div>
+          
         </>
       );
   }

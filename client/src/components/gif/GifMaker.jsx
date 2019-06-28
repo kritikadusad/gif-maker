@@ -24,7 +24,7 @@ class GifMaker extends Component {
 
     return (
       <div className={styles.container}>
-        <h2>GIF-Maker</h2>
+        <h1>GIF-Maker</h1>
         <div>
           <h4>
             To make a GIF, upload images (one by one) and check out a preview of
